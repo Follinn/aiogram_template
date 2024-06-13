@@ -6,8 +6,8 @@ load_dotenv()
 
 
 TOKEN: str = os.getenv("TOKEN")
-admin_id = ['710580176']
-chanel_id = -1002110755049
+admin_id = [admin id]
+chanel_id = -100000000
 DataBaseCon = os.getenv("DataBaseCon")
 
 bot = Bot(token=TOKEN)
